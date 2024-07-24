@@ -16,7 +16,7 @@ public class Client<H: HashFunction> {
     var precomputedX: BigUInt?
 
     var HAMK: Data?
-    var K: Data?
+    public var K: Data?
 
     /// Whether the session is authenticated, i.e. the password
     /// was verified by the server and proof of a valid session
